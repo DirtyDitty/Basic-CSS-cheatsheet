@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Basic CSS</title>
+    <link rel="stylesheet" href="styles.css" type="text/css">
+</head>
+
+<body>
+    <h1>The Basic CSS Cheatsheet</h1>
+    <h2>Selectors</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <th>Description</th>
+            <th>Example</th>
+        </tr>
+        <tr>
+            <td>*</td>
+            <td>Selects ALL elements</td>
+            <td>* {color: red;}</td>
+        </tr>
+        <tr>
+            <td>Element</td>
+            <td>Selects specific elements from HTML</td>
+            <td>p {color: red;}</td>
+        </tr>
+        <tr>
+          <td>Element, element, element</td>
+          <td>Selects multiple elements from HTML with similar properties</td>
+          <td> p, h1, h2 { color: red;}</td>
+        </tr>
+        <tr>
+          <td>.Class</td>
+          <td>Selects elements with classes set in HTML</td>
+          <td> class=red (HTML) <br> .red {color: red;}</td>
+        </tr>
+        <tr>
+          <td>#ID</td>
+          <td> Selects elements with ID in HTML (CAN ONLY BE USED ONCE)</td>
+          <td> id=red (HTML) <br> #red {color: red;}</td>
+        </tr>
+
+    </table>
+    <h2>Properties</h2>
+    <table>
+      <tr>
+      <th>Name</th>
+      <th>Description</th>
+      <th>Example</th>
+      </tr>
+      <tr>
+        <td>color</td>
+        <td>Changes color of text</td>
+        <td>p {color: red;}</td>
+      </tr>
+      <tr>
+        <td>background-color</td>
+        <td>Changes background color of element</td>
+        <td>p {background-color: red;}</td>
+      </tr>
+      <tr>
+        <td>border-style</td>
+        <td>Specifies border size, color, and style</td>
+        <td>p {border-style: 1px, red, dotted;} </td>
+      </tr>
+      <tr>
+        <td>margin</td>
+        <td>Specifies space between other elements</td>
+        <td>p {margin: 15px 10px 15px 10px;} <br> p {margin-top: 15px;}</td>
+      </tr>
+      <tr>
+        <td>padding</td>
+        <td>Specifies space between content and border of an element</td>
+        <td>p {padding: 15px 10px 15px 10px;} <br> p {padding-top: 15px;}</td>
+      </tr>
+      <tr>
+        <td>height/width</td>
+        <td>Specifies the height and/or width of a container</td>
+        <td>p {height: 10px;<br>width: 10px;}</td>
+      </tr>
+      <tr>
+        <td>text-align</td>
+        <td>Aligns text horizontally inside it's container</td>
+        <td>p {text-align: center;}</td>
+      </tr>
+      <tr>
+        <td>vertical-align</td>
+        <td>Aligns text vertically inside it's container</td>
+        <td>p {vertical-align: center;}</td>
+      </tr>
+      <tr>
+        <td>font-family</td>
+        <td>Changes the font of an element. (don't forget to import special fonts into HTML or CSS)</td>
+        <td>p {font-family: serif;}</td>
+      </tr>
+    </table>
+</body>
+
+</html>
